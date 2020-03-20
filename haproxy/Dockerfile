@@ -1,2 +1,2 @@
-FROM haproxy:latest as haproxy-4dvop
+FROM haproxy:latest
 COPY files/haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
